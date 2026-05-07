@@ -1,0 +1,17 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector store (large, generated at runtime)
+chroma_db/
+
+# Uploaded documents (user data)
+data/uploaded_docs/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

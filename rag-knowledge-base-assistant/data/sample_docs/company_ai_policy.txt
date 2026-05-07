@@ -1,0 +1,34 @@
+Company AI Policy — Internal Knowledge Base
+==========================================
+
+Section 1: Data Handling
+-------------------------
+All customer data processed by AI systems must be encrypted at rest and in transit.
+Personal Identifiable Information (PII) must never be sent directly to external LLM APIs.
+Use anonymization or tokenization before processing sensitive data.
+
+Section 2: Model Usage Guidelines
+-----------------------------------
+Employees may use approved AI tools including GPT-4 via internal API gateway only.
+Direct OpenAI API access requires IT approval.
+All AI-generated content must be reviewed by a human before publication.
+
+Section 3: Incident Response
+------------------------------
+Any AI system producing harmful, biased, or incorrect outputs must be reported within 24 hours.
+Contact the AI Governance team at ai-governance@company.com.
+Systems producing critical errors must be taken offline immediately pending review.
+
+Section 4: Approved Use Cases
+-------------------------------
+- Customer support chatbots (with human escalation path)
+- Internal document search and summarization
+- Code review assistance
+- Data classification and tagging
+
+Section 5: Prohibited Use Cases
+---------------------------------
+- Autonomous financial decision-making without human approval
+- Facial recognition in public spaces
+- Employee performance scoring without HR oversight
+- Generating content that could be mistaken for official communications
