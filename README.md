@@ -1,4 +1,4 @@
-# 🧠 RAG Knowledge Base Assistant
+#  RAG Knowledge Base Assistant
 
 ### Production-Ready Retrieval-Augmented Generation (RAG) Pipeline with GPT-4, LangChain & ChromaDB
 
@@ -16,21 +16,20 @@
 
 ---
 
-## 📌 What Is This?
+##  What Is This?
 
 Most developers "connect an API to ChatGPT" and call it an AI solution. This is different.
 
 This project is a **fully production-ready RAG (Retrieval-Augmented Generation) system** that lets you upload your own documents (PDFs, Word files, text files) and ask natural language questions against them — with accurate, source-cited answers powered by GPT-4.
 
 Built for real-world use cases:
-- 🏢 **Enterprise knowledge management** — Let employees search internal policies, SOPs, and reports naturally
-- 🛒 **Customer support automation** — Answer customer questions from your product docs automatically
-- 🔬 **Research assistance** — Query large sets of research papers or legal documents instantly
-- 📚 **Education** — Build intelligent tutoring systems over course materials
+-  **Enterprise knowledge management** — Let employees search internal policies, SOPs, and reports naturally
+-  **Customer support automation** — Answer customer questions from your product docs automatically
+-  **Research assistance** — Query large sets of research papers or legal documents instantly
+-  **Education** — Build intelligent tutoring systems over course materials
 
----
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -63,25 +62,23 @@ Built for real-world use cases:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
----
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Details |
 |---|---|
-| 📄 **Multi-format Ingestion** | PDF, DOCX, TXT — upload any document |
-| 🔍 **MMR Retrieval** | Maximal Marginal Relevance for diverse, accurate results |
-| 🧠 **GPT-4 Powered** | Accurate, context-aware answers with zero hallucination |
-| 📌 **Source Citations** | Every answer includes which document it came from |
-| ⚡ **FastAPI REST API** | Production-ready endpoints for upload, Q&A, and reset |
-| 🖥️ **Streamlit UI** | Clean chat interface — no code needed for end users |
-| 🐳 **Docker Ready** | One-command deployment with Docker Compose |
-| 💾 **Persistent Storage** | ChromaDB persists to disk — survives restarts |
-| 🔒 **Secure** | API key managed via environment variables, never hardcoded |
+|  **Multi-format Ingestion** | PDF, DOCX, TXT — upload any document |
+|  **MMR Retrieval** | Maximal Marginal Relevance for diverse, accurate results |
+|  **GPT-4 Powered** | Accurate, context-aware answers with zero hallucination |
+|  **Source Citations** | Every answer includes which document it came from |
+|  **FastAPI REST API** | Production-ready endpoints for upload, Q&A, and reset |
+|  **Streamlit UI** | Clean chat interface — no code needed for end users |
+|  **Docker Ready** | One-command deployment with Docker Compose |
+|  **Persistent Storage** | ChromaDB persists to disk — survives restarts |
+|  **Secure** | API key managed via environment variables, never hardcoded |
 
----
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -129,7 +126,7 @@ docker-compose up --build
 
 ---
 
-## 🐍 Usage — Python API
+##  Usage — Python API
 
 ```python
 from src.rag_pipeline import load_documents, build_vector_store, build_rag_chain, query
@@ -149,7 +146,7 @@ print("Sources:", result["sources"])
 
 ---
 
-## 🌐 REST API Endpoints
+##  REST API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -175,7 +172,7 @@ curl -X POST http://localhost:8000/ask \
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rag-knowledge-base-assistant/
@@ -199,7 +196,7 @@ rag-knowledge-base-assistant/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 All configuration is via environment variables in `.env`:
 
@@ -214,7 +211,7 @@ API_PORT=8000                  # API port
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -229,47 +226,43 @@ API_PORT=8000                  # API port
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
 ```
 
----
 
-## 🌍 Real-World Use Cases I've Built
+##  Real-World Use Cases I've Built
 
 This repo is a foundation. In client projects, I've extended this pattern to build:
 
-- ✅ **Customer Support Bots** — RAG over product documentation with Zendesk integration
-- ✅ **Legal Document Assistants** — Query contracts and compliance docs in natural language
-- ✅ **Internal HR Knowledge Bases** — Employees ask policy questions 24/7 without HR involvement
-- ✅ **Research Paper Search Engines** — Semantic search over 10,000+ academic papers
-- ✅ **Multi-tenant SaaS RAG Platforms** — Each customer gets isolated vector stores
+-  **Customer Support Bots** — RAG over product documentation with Zendesk integration
+-  **Legal Document Assistants** — Query contracts and compliance docs in natural language
+-  **Internal HR Knowledge Bases** — Employees ask policy questions 24/7 without HR involvement
+-  **Research Paper Search Engines** — Semantic search over 10,000+ academic papers
+-  **Multi-tenant SaaS RAG Platforms** — Each customer gets isolated vector stores
 
----
 
-## 👨‍💻 About the Author
+##  About the Author
 
 **Sheraz Karim** — AI Engineer & Full Stack Developer
 
-- 🏆 **Top Rated** on Upwork with **100% Job Success Score**
-- 🤖 Specialist in **Generative AI, LLM Apps, RAG Pipelines & AI Agents**
-- ☁️ **AWS | Azure | DevOps** certified practitioner
-- 📍 Based in Pakistan — Available globally
+-  **Top Rated** on Upwork with **100% Job Success Score**
+-  Specialist in **Generative AI, LLM Apps, RAG Pipelines & AI Agents**
+-  **AWS | Azure | DevOps** certified practitioner
+-  Based in Pakistan — Available globally
 
-📬 **Hire me on Upwork:** [upwork.com/freelancers/sherazkarim](https://www.upwork.com/freelancers/sherazkarim)
-🐙 **GitHub:** [github.com/Sherazkarim1](https://github.com/Sherazkarim1)
+ **Hire me on Upwork:** [upwork.com/freelancers/sherazkarim](https://www.upwork.com/freelancers/sherazkarim)
+ **GitHub:** [github.com/Sherazkarim1](https://github.com/Sherazkarim1)
 
----
 
-## 📄 License
+##  License
 
 MIT License — feel free to use, modify, and distribute.
 
----
 
-## ⭐ If this helped you, please star the repo!
+##  If this helped you, please star the repo!
 
 ```
 Keywords: RAG, Retrieval-Augmented Generation, LangChain, GPT-4, ChromaDB, OpenAI,
